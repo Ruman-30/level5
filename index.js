@@ -10,6 +10,9 @@ app.get("/", (req, res)=>{
 app.get("/health", (req, res)=>{
     res.json({message: "All is good"})
 })
+app.get("/hospital", (req, res)=>{
+    res.json({message: "City hospital"})
+})
 app.listen(PORT, ()=>{
     console.log(`server is running on port ${PORT}`);
     
