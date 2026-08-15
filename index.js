@@ -5,7 +5,7 @@ dotenv.config()
 const PORT = process.env.PORT || 5000
 
 app.get("/", (req, res)=>{
-    res.json({message: "Hello Ruman v2"})
+    res.json({message: "Hello Ruman v3"})
 })
 app.get("/health", (req, res)=>{
     res.json({message: "All is good"})
